@@ -1,8 +1,8 @@
-//Log into Power BI Account 
+#Log into Power BI Account 
 
-Login-powerbiserviceaccount
+#Login-powerbiserviceaccount
 
-//Workspaces and Users
+#Workspaces and Users
 
 $workspace_csv = "powerBI_Workspaces.csv"
 $ActiveWorkspaces = Get-PowerBIWorkspace -Scope Organization -all | Where {($_.State -eq "Active")}
